@@ -1,0 +1,10 @@
+:root {
+  /* COLOR */
+  --primary-gradient: linear-gradient(45deg, #df3e3f, #e55a1c);
+  --gray-1: #1c1c1c;
+
+
+  /* TYPO */
+  --font-family: "Montserrat", serif;
+  --font-family: "Roboto Condensed", serif;
+}
