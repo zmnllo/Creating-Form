@@ -16,7 +16,7 @@
                 <img src="/src/assets/icon1.webp" alt="Icon musculation" aria-label="" class="icons-intro">
             </div>
             <div>
-                <p class="title-h3">+ DE 180 ADHÉRENTS</p>
+                <h3 class="title-h3">+ DE 180 ADHÉRENTS</h3>
             </div>
             <p>Des adhérents déterminés à repousser leurs limites et atteindre de nouveaux sommets.</p>
         </div>
@@ -28,12 +28,12 @@
                 <img src="/src/assets/icon2.webp" alt="Icon musculation" aria-label="" class="icons-intro">
             </div>
             <div>
-                <p class="title-h3">2 COACHS</p>
+                <h3 class="title-h3">2 COACHS</h3>
             </div>
             <p>Deux coachs passionnés pour vous accompagner avec un suivi personnalisé et motivant.</p>
         </div>
     </div>
-   
+
 
     <div class="border">
         <div class="content">
@@ -41,7 +41,7 @@
                 <img src="/src/assets/icon3.webp" alt="Icon animateur" aria-label="" class="icons-intro">
             </div>
             <div>
-                <p class="title-h3">19 ANIMATEURS</p>
+                <h3 class="title-h3">19 ANIMATEURS</h3>
             </div>
             <p>Des animateurs dynamiques, prêts à vous inspirer et à vous soutenir dans l'atteinte de vos objectifs.</p>
         </div>
@@ -51,37 +51,44 @@
 
 
 <section>
-    <h2>Découvrez nos services</h2>
-    <p>Profitez de nos deux salles distinctes : l'une dédiée aux poids libres et au yoga, l'autre aux machines
-        guidées et à l’espace cardio.</p>
 
-    <div>
-        <div>
-            <h3>MUSCULATION</h3>
-            <hr>
+    <div class="sections-content">
+
+        <div class="titres-sections">
+            <h3>Découvrez nos services</h3>
+        </div>
+        <p class="sous-titres">Profitez de nos deux salles distinctes : l'une dédiée aux poids libres et au yoga,
+            l'autre aux machines
+            guidées et à l’espace cardio.</p>
+    </div>
+
+    <div class="services-card">
+        <div class="tt">
+            <h3 class="title-services">MUSCULATION</h3>
+            <hr class="hr-services">
         </div>
         <div>
-            <img src="/src/assets/musculation.webp" alt="Kettlebell" aria-label="">
+            <img src="/src/assets/musculation.webp" alt="Kettlebell" aria-label="" class="img-services">
         </div>
     </div>
 
-    <div>
-        <div>
-            <h3>POIDS DU CORPS</h3>
-            <hr>
+    <div class="services-card">
+        <div class="tt">
+            <h3 class="title-services">POIDS DU CORPS</h3>
+            <hr class="hr-services">
         </div>
         <div>
-            <img src="/src/assets/pdc.webp" alt="Femme sportive" aria-label="">
+            <img src="/src/assets/pdc.webp" alt="Femme sportive" aria-label="" class="img-services">
         </div>
     </div>
 
-    <div>
-        <div>
-            <h3>CARDIO</h3>
-            <hr>
+    <div class="services-card">
+        <div class="tt">
+            <h3 class="title-services">CARDIO</h3>
+            <hr class="hr-services">
         </div>
         <div>
-            <img src="/src/assets/cardio.webp" alt="Homme en train de faire de la corde a sauter" aria-label="">
+            <img src="/src/assets/cardio.webp" alt="Homme en train de faire de la corde a sauter" aria-label="" class="img-services">
         </div>
     </div>
 
@@ -125,9 +132,11 @@
 </section>
 
 <section>
-    <div>
-        <h2>Découvrez nos abonnements</h2>
-        <p>Il n’y a aucun frais d’inscription ni de badge d’entrée. L’entrée se fait par reconnaissance faciale et
+    <div class="sections-content">
+        <div class="titres-sections">
+            <h3>Découvrez nos abonnements</h3>
+        </div>
+        <p class="sous-titres">Il n’y a aucun frais d’inscription ni de badge d’entrée. L’entrée se fait par reconnaissance faciale et
             l’inscription est uniquement disponible en présentiel.</p>
     </div>
 
@@ -174,10 +183,12 @@
 </section>
 
 <section>
-    <div>
-        <div>
-            <h2>Nos adhérents témoignent !</h2>
-            <p>Nous veillons au bien-être de nos adhérents et cultivons un esprit de cohésion.</p>
+    
+        <div class="sections-content">
+            <div class="titres-sections"> 
+                <h2>Nos adhérents témoignent !</h2>
+            </div>
+            <p class="sous-titres"> veillons au bien-être de nos adhérents et cultivons un esprit de cohésion.</p>
         </div>
 
         <div>
@@ -186,7 +197,8 @@
             </div>
             <p>“Très bonne salle de sport, petite mais excellente ambiance et les gens sont là pour aider !”</p>
         </div>
-    </div>
+    
 
 </section>
+
 {{> "layouts/footer.hbs" }}

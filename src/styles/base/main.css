@@ -22,23 +22,12 @@ body {
 
 }
 
-.container {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 .intro {
   margin-left: 20px;
   margin-right: 20px;
 
 }
-
-.icons-intro {
-  margin-left: 60px;
-  height: 55px;
-}
-
-
 
 .border {
   margin: auto;
@@ -65,12 +54,10 @@ body {
 }
 
 .title-h3 {
-  font-size: 18px;
+  font-size:var(--M18);
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-
 
 .icons-intro {
   width: 55px;
@@ -79,4 +66,73 @@ body {
   /* Espacement sous l'icône */
   margin-top: 20px;
 
+  }
+
+  .sections-content {
+    margin: 20px;
+    margin-top: 70px; 
+    /* Espace entre les section */
+    margin-bottom: 50px;
+    /* Espace entre les titres sections et le contenu */
+  }
+
+
+  .titres-sections {
+    font-size: var(--M22);
+    text-align: center;
+    
+  }
+  .titres-sections h3 {
+    margin: 0;
+    
+  }
+  .sous-titres {
+    text-align: center;
+    font-size: var(--M14);
+    
+  }
+
+ 
+  .img-services {
+    border-radius: 50%;
+    height: 100px;
+  }
+
+  .title-sections {
+    font-size: var(--M18);
+  }
+
+  .services-card {
+    align-items: center;
+    margin: auto;
+    position: relative;
+    border-radius: 12px;
+    /* Arrondir les coins */
+    padding: 2px;
+    /* Épaisseur de la bordure */
+    background: linear-gradient(90deg, #df3e3f, #e55a1c);
+    /* Dégradé uniquement pour la bordure */
+    width: 390px;
+    /* Largeur de la carte */
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+  }
+
+  .tt {
+    padding-right: 60px;
+    width: 190px;
+  }
+
+  .title-services {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hr-services {
+    width: 115px;
   }

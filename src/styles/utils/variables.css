@@ -20,5 +20,5 @@
    --M14-16: clamp(0.875rem, 0.7645rem + 0.3676vw, 1rem); /* 14 mobile 16 desktop */
    --M12: clamp(0.75rem, 0.6395rem + 0.3676vw, 0.875rem); /* 12 mobile 14 desktop */
    --M40: clamp(2.5rem, 2.5rem + 0vw, 2.5rem);  /* price */
-   --btn: clamp(1rem, 1rem + 0vw, 1rem); /* Button */
+   --img-header__img-header__img-header__btn: clamp(1rem, 1rem + 0vw, 1rem); /* Button */
 }

@@ -1,5 +1,5 @@
 /* Style général */
-.burger-btn {
+.burger-img-header__btn {
     display: inline-block;
     padding: 30px 30px;
     font-weight: bold;
@@ -17,12 +17,10 @@
 /* Menu */
 .menu {
     display: none;
-    background-color: #0d0d0d;    
-    top: 0;
-    left: 40;
-    padding: 100px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-    z-index: 40;
+    background-color: #0d0d0d; 
+    padding: 50px;
+    position: fixed;
+    margin-right: 50px;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     font-family: var(--Roboto);
@@ -40,7 +38,7 @@
 
 .menu a {
     text-decoration: none;
-    color: #fff;
+    color: #ebebeb;
     font-size: 18px;
     font-weight: bold;
 }
@@ -52,15 +50,15 @@
 }
 
 /* Animation du bouton burger */
-.burger-btn.open .burger-bar:nth-child(1) {
+.burger-img-header__btn.open .burger-bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
 
-.burger-btn.open .burger-bar:nth-child(2) {
+.burger-img-header__btn.open .burger-bar:nth-child(2) {
     opacity: 0;
 }
 
-.burger-btn.open .burger-bar:nth-child(3) {
+.burger-img-header__btn.open .burger-bar:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
@@ -69,7 +67,7 @@
 }
 
 @media (min-width: 768px) {
-    .burger-btn {
+    .burger-img-header__btn {
         display: none; /* Cache le bouton burger */
     }
 
