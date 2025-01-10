@@ -11,6 +11,8 @@ body {
   /* Éviter les paddings par défaut */
   min-height: 100vh;
   /* Assurer que l'arrière-plan couvre toute la hauteur de la page */
+  line-height: 1.4;
+  /* Améliore la lisibilité du texte */
 }
 
 .mw-100 {
@@ -30,3 +32,51 @@ body {
   margin-right: 20px;
 
 }
+
+.icons-intro {
+  margin-left: 60px;
+  height: 55px;
+}
+
+
+
+.border {
+  margin: auto;
+  position: relative;
+  border-radius: 12px;
+  /* Arrondir les coins */
+  padding: 2px;
+  /* Épaisseur de la bordure */
+  background: linear-gradient(90deg, #df3e3f, #e55a1c);
+  /* Dégradé uniquement pour la bordure */
+  width: 390px;
+  /* Largeur de la carte */
+  margin-bottom: 25px;
+}
+
+.content {
+  background-color: #0d0d0d;
+  /* Fond identique à celui du site */
+  border-radius: 10px;
+  /* Réduction pour respecter la bordure */
+  padding: 20px;
+  /* Espacement interne */
+
+}
+
+.title-h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.icons-intro {
+  width: 55px;
+  /* Ajuster la taille de l'icône */
+  margin-bottom: 20px;
+  /* Espacement sous l'icône */
+  margin-top: 20px;
+
+  }

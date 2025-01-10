@@ -16,18 +16,16 @@
 
 /* Menu */
 .menu {
-    background-color: #0d0d0d;
-    display: none; /* Caché par défaut */
-    position: fixed;
+    display: none;
+    background-color: #0d0d0d;    
     top: 0;
-    left: 0;
-    height: 20%;
-    width: 30px;
-    padding: 20px;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-    z-index: 5;
+    left: 40;
+    padding: 100px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 40;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
+    font-family: var(--Roboto);
 }
 
 .menu ul {
