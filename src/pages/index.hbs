@@ -11,7 +11,7 @@
 </div>
 
 
-<section>
+<section class="index_section_intro">
     <div class="border">
         <div class="content">
             <div>
@@ -52,9 +52,9 @@
 
 
 
-<section>
+<section class="index_section_services">
 
-    <div class="sections-content">
+    <div class="sections_content">
 
         <div class="titres-sections">
             <h3>Découvrez nos services</h3>
@@ -64,30 +64,30 @@
             guidées et à l’espace cardio.</p>
     </div>
 
-    <div class="services-card">
+    <div class="services_card">
         <div class="tt">
-            <h3 class="title-services">MUSCULATION</h3>
-            <hr class="hr-services">
+            <h3 class="title_services">MUSCULATION</h3>
+            <hr class="hr_services">
         </div>
         <div>
             <img src="/src/assets/musculation.webp" alt="Kettlebell" aria-label="" class="img-services">
         </div>
     </div>
 
-    <div class="services-card">
+    <div class="services_card">
         <div class="tt">
-            <h3 class="title-services">POIDS DU CORPS</h3>
-            <hr class="hr-services">
+            <h3 class="title_services">POIDS DU CORPS</h3>
+            <hr class="hr_services">
         </div>
         <div>
             <img src="/src/assets/pdc.webp" alt="Femme sportive" aria-label="" class="img-services">
         </div>
     </div>
 
-    <div class="services-card">
+    <div class="services_card">
         <div class="tt">
-            <h3 class="title-services">CARDIO</h3>
-            <hr class="hr-services">
+            <h3 class="title_services">CARDIO</h3>
+            <hr class="hr_services">
         </div>
         <div>
             <img src="/src/assets/cardio.webp" alt="Homme en train de faire de la corde a sauter" aria-label=""
@@ -97,11 +97,12 @@
 
 </section>
 
-<section class="fonctionnalite">
+<section class="index_section_fonctionnalite">
 
-    <div class="fonctionnalite-cards">
+    <div class="fonctionnalite_cards">
         <h2>Profitez de notre nouvelle fonctionnalite de suivi personnalise !</h2>
-        <p class="fonctionnalite-p">C’est simple, inscrivez vous, répondez à notre questionnaire, définissez vos objetifs et nous vous offrons un
+        <p class="fonctionnalite_p">C’est simple, inscrivez vous, répondez à notre questionnaire, définissez vos
+            objetifs et nous vous offrons un
             premier programme d’entraînement que vous soyez débutant ou expert.</p>
 
         <div>
@@ -136,8 +137,8 @@
 
 </section>
 
-<section>
-    <div class="sections-content">
+<section class="index_section_tarifs">
+    <div class="sections_content">
         <div class="titres-sections">
             <h3>Découvrez nos abonnements</h3>
         </div>
@@ -148,63 +149,140 @@
 
     <div class="cards">
         <!-- Étudiant -->
-        <div class="card">
-            <h3>ETUDIANT</h3>
-            <div class="price">130€ / An</div>
-            <ul>
-                <li>Vous pouvez changer d’abonnement à tout moment.</li>
-                <li>Accès à l’espace personnel</li>
-                <li>Packs débutant et intermédiaire</li>
-            </ul>
-            <p>*Copie carte d’identité et étudiante requises avec autorisation parentale pour les moins de 18 ans.</p>
+        <div class="border_tarifs">
+            <div class="content_tarifs">
+                <h3 class="h3_tarifs">ETUDIANT</h3>
+                <div> <strong class="price">130€</strong>/ An</div>
+                <p class="sous_titre_tarifs">Vous pouvez changer d’abonnement à tout moment.</p>
+                <ul class="list_tarifs">
+                    <li>Accès à l’espace personnel</li>
+                    <hr class="hr_tarifs">
+                    <li>Packs débutant et intermédiaire</li>
+                    <hr class="hr_tarifs">
+                </ul>
+                <p class="p_tarifs">*Copie carte d’identité et étudiante requises avec autorisation parentale pour les
+                    moins de 18 ans.
+                </p>
+            </div>
         </div>
         <!-- Premium -->
-        <div class="card-premium">
-            <h3>PREMIUM</h3>
-            <div class="price">180€ / An</div>
-            <ul>
-                <li>Vous pouvez passer à un abonnement inférieur à tout moment.</li>
-                <li>Accès à l’espace personnel</li>
-                <li>Packs débutant, intermédiaire et avancé</li>
-                <li>Accès à la nutrition</li>
-                <li>Création de programmes personnalisés</li>
-            </ul>
-            <p>Possibilité de paiement en 2 fois (chèques ou espèces).</p>
+        <div class="card_premium">
+            <div class="content_premium">
+
+                <h3>PREMIUM</h3>
+                <div> <strong class="price">180€</strong> / An</div>
+                <p class="sous_titre_tarifs">Vous pouvez passer à un abonnement inférieur à tout moment.</p>
+                <ul class="list_tarifs">
+                    <li>Accès à l’espace personnel</li>
+                    <hr class="hr_tarifs">
+                    <li>Packs débutant, intermédiaire et avancé</li>
+                    <hr class="hr_tarifs">
+                    <li>Accès à la nutrition</li>
+                    <hr class="hr_tarifs">
+                    <li>Création de programmes personnalisés</li>
+                    <hr class="hr_tarifs">
+                </ul>
+                <p class="p_tarifs">Possibilité de paiement en 2 fois (chèques ou espèces).</p>
+            </div>
         </div>
         <!-- Classique -->
-        <div class="card">
-            <h3>CLASSIQUE</h3>
-            <div class="price">150€ / An</div>
-            <ul>
-                <li>Vous pouvez changer d’abonnement à tout moment.</li>
-                <li>Accès à l’espace personnel</li>
-                <li>Packs débutant et intermédiaire</li>
-                <li>Accès à la nutrition</li>
-            </ul>
-            <p>Paiement en 2 fois (chèques ou espèces).</p>
+        <div class="border_tarifs">
+            <div class="content_tarifs">
+                <h3 class="h3_tarifs">CLASSIQUE</h3>
+                <div> <strong class="price">150€</strong> / An</div>
+                <p class="sous_titre_tarifs">Vous pouvez changer d’abonnement à tout moment.</p>
+                <ul class="list_tarifs">
+                    <li>Accès à l’espace personnel</li>
+                    <hr class="hr_tarifs">
+                    <li>Packs débutant et intermédiaire</li>
+                    <hr class="hr_tarifs">
+                    <li>Accès à la nutrition</li>
+                    <hr class="hr_tarifs">
+                </ul>
+                <p class="p_tarifs">Paiement en 2 fois (chèques ou espèces).</p>
+            </div>
         </div>
     </div>
     </div>
 
 </section>
 
-<section>
+<section class="index_section_avis">
 
-    <div class="sections-content">
+    <div class="sections_content">
         <div class="titres-sections">
-            <h2>Nos adhérents témoignent !</h2>
+            <h3>Nos adhérents témoignent !</h3>
         </div>
-        <p class="sous-titres"> veillons au bien-être de nos adhérents et cultivons un esprit de cohésion.</p>
+        <p class="sous-titres"> Veillons au bien-être de nos adhérents et cultivons un esprit de cohésion.</p>
     </div>
 
-    <div>
-        <div>
-            <p> Mikaïl </p>
+    <div class="avis">
+        <div class="content_avis">
+            <div>
+                <p class="name_avis"> <strong>Mikaïl</strong> </p>
+            </div>
+            <p>“Très bonne salle de sport, petite mais excellente ambiance et les gens sont là pour aider !”</p>
         </div>
-        <p>“Très bonne salle de sport, petite mais excellente ambiance et les gens sont là pour aider !”</p>
     </div>
 
+    <div class="avis">
+        <div class="content_avis">
+            <div>
+                <p class="name_avis"> <strong>Noémie</strong> </p>
+            </div>
+            <p>“Salle tranquille, personnel gentil et à l’écoute. Je recommande.”</p>
+        </div>
+    </div>
 
+    <div class="avis">
+        <div class="content_avis">
+            <div>
+                <p class="name_avis"> <strong>Sabrina</strong> </p>
+            </div>
+            <p>“Super bonne ambiance c'est très motivant et convivial. Tarif a l'année très intéressant.”</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="index_section_inscription">
+
+    <div class="sections_content">
+        <div class="titres_sections_inscription">
+            <h3>Pré-Inscription</h3>
+        </div>
+        <p class="sous-titres_inscription"> Remplissez le formulaire de pré-inscription pour accéder à votre espace
+            personnel. Une
+            fois votre abonnement réglé en salle, votre demande sera validée et un nom d'utilisateur personnalisé vous
+            sera attribué. Si vous n'avez pas encore finalisé votre inscription, laissez un message précisant vos
+            intentions. Sans nouvelles, la demande expirera au bout d'une semaine.</p>
+    </div>
+
+    <form>
+        <div class="form">
+            <input class="contact_form" type="text" id="name" name="name" placeholder="Nom / Prénom *" required>
+        </div>
+
+        <div class="form">
+            <input class="contact_form" type="email" id="email" name="email" placeholder="Adresse mail *" required>
+        </div>
+
+        <div class="form">
+            <input class="contact_form" type="number" id="number" name="number" placeholder="Téléphone *" required>
+        </div>
+
+        <div class="form">
+            <input class="contact_form contact_form--padding" type="text" id="text" name="text" placeholder="Message *"
+                required>
+        </div>
+
+        <div class="checkbox_conditions">
+
+        <input type="checkbox" id="Politique de Confidentialité" name="Politique de Confidentialité" value="Conditions">
+        <label class="checkbox_label" for="Politique de Confidentialité">J'accepte la <a class="lien_politique" href="#">Politique de Confidentialité</a></label><br>
+        </div>
+        <button class="button_inscription" type="button"> <strong>ENVOYER</strong></button>
+    </form>
 </section>
 
 {{> "layouts/footer.hbs" }}

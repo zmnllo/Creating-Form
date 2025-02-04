@@ -2,16 +2,13 @@
 
 
 /* Vendors */
-@import "vendors/normalize";
+@import "vendors/+";
 
 /* Utils */
-@import "utils/variables";
+@import "utils/+";
 
 /* Base */
-@import "base/main";
+@import "base/+";
 
 /* Layouts */
-@import "layouts/header";
-@import "layouts/menu";
-@import "layouts/footer";
-@import "layouts/section";
+@import "layouts/+";

@@ -36,12 +36,14 @@ body {
   /* Arrondir les coins */
   padding: 2px;
   /* Épaisseur de la bordure */
-  background: linear-gradient(90deg, #df3e3f, #e55a1c);
+  background: linear-gradient(180deg, #df3e3f, #e55a1c);
   /* Dégradé uniquement pour la bordure */
   width: 390px;
   /* Largeur de la carte */
   margin-bottom: 25px;
 }
+
+
 
 .content {
   background-color: #0d0d0d;
@@ -54,7 +56,7 @@ body {
 }
 
 .title-h3 {
-  font-size:var(--M18);
+  font-size: var(--M18);
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -66,95 +68,81 @@ body {
   /* Espacement sous l'icône */
   margin-top: 20px;
 
-  }
+}
 
-  .sections-content {
-    margin: 20px;
-    /* margin-top: 70px;  */
-    /* Espace entre les section */
-    /* margin-bottom: 50px; */
-    /* Espace entre les titres sections et le contenu */
-  }
+.sections_content {
+  margin: 20px;
+  /* margin-top: 70px;  */
+  /* Espace entre les section */
+  /* margin-bottom: 50px; */
+  /* Espace entre les titres sections et le contenu */
+}
 
 
-  .titres-sections {
-    font-size: var(--M20);
-    text-align: center;
-  }
-
-  .titres-sections h3 {
-    margin: 0;
-  }
-  .sous-titres {
-    text-align: center;
-    font-size: var(--M14);
-    
-  }
-
- 
-  .img-services {
-    border-radius: 50%;
-    height: 100px;
-  }
-
-  .title-sections {
-    font-size: var(--M18);
-  }
-
-  .services-card {
-    align-items: center;
-    margin: auto;
-    position: relative;
-    border-radius: 20px;
-    /* Arrondir les coins */
-    padding: 2px;
-    /* Épaisseur de la bordure */
-    background: linear-gradient(90deg, #df3e3f, #e55a1c);
-    /* Dégradé uniquement pour la bordure */
-    width: 390px;
-    /* Largeur de la carte */
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    
-  }
-
-  .tt {
-    padding-right: 60px;
-    width: 190px;
-  }
-
-  .title-services {
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .hr-services {
-    width: 115px;
-  }
-
-.fonctionnalite {
+.titres-sections {
+  font-size: var(--M20);
   text-align: center;
+}
+
+.titres-sections h3 {
+  margin: 0;
+}
+
+.sous-titres {
+  text-align: center;
+  font-size: var(--M14);
+
+}
+
+
+.img-services {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.title-sections {
+  font-size: var(--M18);
+}
+
+.services_card {
+  align-items: center;
+  margin: auto;
+  position: relative;
+  border-radius: 20px;
+  /* Arrondir les coins */
+  padding: 2px;
+  /* Épaisseur de la bordure */
+  background: linear-gradient(90deg, #df3e3f, #e55a1c);
+  /* Dégradé uniquement pour la bordure */
+  width: 390px;
+  /* Largeur de la carte */
+  margin-bottom: 25px;
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
 }
 
-.fonctionnalite-cards {
-width: 350px;
-margin-top: 35px;
-margin-bottom: 35px;
+.tt {
+  padding-right: 60px;
+  width: 190px;
 }
 
-.fonctionnalite-p {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.title_services {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
 }
 
-.card {
+.hr_services {
+  width: 115px;
+}
+
+
+
+
+.card_premium {
   margin: auto;
   border-radius: 20px;
   /* Arrondir les coins */
@@ -165,12 +153,19 @@ margin-bottom: 35px;
   width: 390px;
   /* Largeur de la carte */
   margin-bottom: 25px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+
 }
 
-.card-premium {
+.content_premium {
+  border-radius: 20px;
+  /* Réduction pour respecter la bordure */
+  padding: 35px;
+  /* Espacement interne */
+}
+
+.border_tarifs {
   margin: auto;
+  position: relative;
   border-radius: 20px;
   /* Arrondir les coins */
   padding: 2px;
@@ -180,7 +175,186 @@ margin-bottom: 35px;
   width: 390px;
   /* Largeur de la carte */
   margin-bottom: 25px;
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
 
+.content_tarifs {
+  background-color: #0d0d0d;
+  /* Fond identique à celui du site */
+  border-radius: 20px;
+  /* Réduction pour respecter la bordure */
+  padding: 35px;
+  /* Espacement interne */
+}
+
+.list_tarifs {
+  list-style: none;
+  margin-left: -40px;
+  font-size: 14px;
+  margin-top: 30px;
+
+}
+
+.h3_tarifs {
+  background: linear-gradient(90deg, #df3e3f, #e55a1c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+}
+
+.price {
+  font-size: 32px;
+  margin-right: 10%;
+
+}
+
+.hr_tarifs {
+  opacity: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p_tarifs {
+  font-size: 11px;
+  margin-top: 77px;
+}
+
+.sous_titre_tarifs {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.avis {
+  margin: auto;
+  position: relative;
+  border-radius: 20px;
+  /* Arrondir les coins */
+  padding: 2px;
+  /* Épaisseur de la bordure */
+  background: linear-gradient(180deg, #df3e3f, #e55a1c);
+  /* Dégradé uniquement pour la bordure */
+  width: 390px;
+  /* Largeur de la carte */
+  margin-bottom: 25px;
+}
+
+.content_avis {
+  background-color: #0d0d0d;
+  /* Fond identique à celui du site */
+  border-radius: 20px;
+  /* Réduction pour respecter la bordure */
+  padding: 35px;
+  /* Espacement interne */
+}
+
+.name_avis {
+  background: linear-gradient(90deg, #df3e3f, #e55a1c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: var(--M16);
+  
+}
+
+.pre_inscription {
+  background: linear-gradient(90deg, #2B3C43, #1E2A2F);
+  border-radius: 20px;
+}
+
+.form {
+  margin: auto;
+
+  border-radius: 20px;
+  /* Arrondir les coins */
+  padding: 1px;
+  /* Épaisseur de la bordure */
+  background: linear-gradient(180deg, #df3e3f, #e55a1c);
+  /* Dégradé uniquement pour la bordure */
+  width: 392px;
+  /* Largeur de la carte */
+  margin-bottom: 25px;
+  
+
+}
+.contact_form {
+  background-color: #0d0d0d;
+  opacity: 99%;
+  border-radius: 20px;
+  width: 370px;
+  display: flex;
+  border: 0;
+  height: 46px;
+  padding-left: 20px;
+  
+}
+
+.contact_form--padding {
+  padding-bottom: 150px;
+  
+}
+
+
+.pre_inscription {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.sous-titres_inscription {
+  font-size: var(--M14);
+
+}
+
+.titres_sections_inscription {
+  font-size: var(--M20);
+}
+
+.checkbox_conditions {
+
+  padding-left: 20px;
+  font-size: var(--M14);
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+.checkbox_label {
+  padding: 20px;
+  
+  
+}
+
+.button_inscription {
+  width: 177px;
+  height: 47px;
+  background: linear-gradient(180deg, #df3e3f, #e55a1c);
+  border-radius: 5px;  
+  border: none;
+  margin-left: 235px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.button_inscription.button_inscription {
+color: #ebebeb;
+font-family: 'Roboto Condensed', sans-serif;
+ 
+}
+
+.lien_politique {
+  color: #ebebeb;
+}
+
+.checkbox_conditions input {
+  width: 15px;
+  height: 15px;
+  border-radius: 5px; 
+  border: 2px solid #ebebeb;
+  background-color: white;
+  appearance: none;
+  cursor: pointer;
+}
+
+.checkbox_conditions input:checked {
+  background-color: #190505;
+  border: 2px solid #971010;
+}
