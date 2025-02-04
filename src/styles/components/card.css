@@ -1,0 +1,122 @@
+/* Section TARIFS */
+
+.card {
+    margin: auto;
+    border-radius: 20px;
+    /* Arrondir les coins */
+    padding: 2px;
+    /* Épaisseur de la bordure */
+    background: linear-gradient(180deg, #df3e3f, #e55a1c);
+    /* Dégradé uniquement pour la bordure */
+    width: 390px;
+    /* Largeur de la carte */
+    margin-bottom: 25px;
+}
+
+.card--minheight > div{
+    min-height: 480px;
+}
+
+.card__caption {
+    background-color: #0d0d0d;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.card__caption--premium {
+    background-color: transparent;
+}
+
+.card__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 77px;
+}
+
+.card__list>li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    font-size: var(--M14);
+}
+
+.card__sous_titre {
+    font-size: var(--M14);
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card__suppl {
+    font-size: 11px;
+}
+
+.card__price {
+    font-size: 32px;
+    padding-right: 40px;
+}
+
+.card__title {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card__title--linear {
+    background: linear-gradient(90deg, #df3e3f, #e55a1c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Section SERVICES */
+
+.img-services {
+    border-radius: 50%;
+    height: 100px;
+   
+}
+
+.title-sections {
+    font-size: var(--M18);
+}
+
+.card--services {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    align-items: center;
+}
+
+.services {
+    padding-right: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.services_title {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.services_title {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+ 
+   
+
+}
+
+/* .hr_services {
+    width: 115px;
+}
+   */
+ 
+  

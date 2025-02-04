@@ -62,17 +62,4 @@
   margin-bottom: 60px;
 }
 
-.img-header__btn {
-  font-size: var(--btn);
-  font-family: "Roboto Condensed", serif;
-  padding: 10px 20px;
-  /* Espace interne du bouton */
-  background: linear-gradient(#df3e3f, #e55a1c);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 50px;
-  
-  /* Espace entre le bouton et le texte */
-}
 

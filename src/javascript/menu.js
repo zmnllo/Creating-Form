@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // Sélection des éléments
-    const burgerBtn = document.querySelector('.burger-img-header__btn');
+    const burgerBtn = document.querySelector('.burger-button');
     const menu = document.querySelector('.menu');
     console.log(burgerBtn);
     // Toggle du menu

@@ -1,5 +1,5 @@
 /* Style général */
-.burger-img-header__btn {
+.burger-button {
     display: inline-block;
     padding: 30px 30px;
     font-weight: bold;
@@ -50,15 +50,15 @@
 }
 
 /* Animation du bouton burger */
-.burger-img-header__btn.open .burger-bar:nth-child(1) {
+.burger-button.open .burger-bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
 
-.burger-img-header__btn.open .burger-bar:nth-child(2) {
+.burger-button.open .burger-bar:nth-child(2) {
     opacity: 0;
 }
 
-.burger-img-header__btn.open .burger-bar:nth-child(3) {
+.burger-button.open .burger-bar:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
@@ -67,7 +67,7 @@
 }
 
 @media (min-width: 768px) {
-    .burger-img-header__btn {
+    .burger-button {
         display: none; /* Cache le bouton burger */
     }
 
