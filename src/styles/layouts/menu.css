@@ -17,7 +17,7 @@
 .menu {
     display: none;
     background-color: #0d0d0d; 
-    
+    padding: 35px;
     position: fixed;
     margin-right: 50px;
     transform: translateX(100%);
