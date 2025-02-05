@@ -2,17 +2,10 @@
   width: 147px
 }
 
-.logo {
-  padding-left: 20px;
-  display: flex;
-  align-items: center;
-}
-
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .img-header {

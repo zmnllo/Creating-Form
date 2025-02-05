@@ -1,8 +1,7 @@
 /* Section TARIFS */
-
 .card {
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     /* Arrondir les coins */
     padding: 2px;
     /* Épaisseur de la bordure */
@@ -13,13 +12,13 @@
     margin-bottom: 25px;
 }
 
-.card--minheight > div{
+.card--minheight>div {
     min-height: 480px;
 }
 
 .card__caption {
     background-color: #0d0d0d;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 35px;
 }
 
@@ -74,11 +73,10 @@
 
 
 /* Section SERVICES */
-
 .img-services {
     border-radius: 50%;
     height: 100px;
-   
+
 }
 
 .title-sections {
@@ -88,13 +86,12 @@
 .card--services {
     display: flex;
     justify-content: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
     align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
 }
 
 .services {
-    padding-right: 60px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -109,14 +106,24 @@
 .services_title {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
- 
-   
-
 }
 
-/* .hr_services {
-    width: 115px;
+
+/* Section INTRO */
+.intro_title {
+    font-size: var(--M18);
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-   */
- 
-  
+
+.intro-icons {
+    width: 55px;
+    /* Ajuster la taille de l'icône */
+    margin-bottom: 20px;
+    /* Espacement sous l'icône */
+    margin-top: 20px;
+}
+
+.intro {
+    margin: 20px;
+}
