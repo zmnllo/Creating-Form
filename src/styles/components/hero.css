@@ -1,0 +1,79 @@
+/* Hero page ACCUEIL */
+.img__hero-header {
+    background-image: url(/src/assets/imgheader.png);
+    background-size: cover;
+    background-position: center;
+    height: 705px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img__header-container {
+    max-width: 600px;
+    color: white;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .img__header-bienvenue {
+    font-size: var(--M16);
+    margin-bottom: 35px;
+  }
+  
+  .img__header-slogan {
+    font-size: var(--M36);
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  
+  .img__header-text {
+    font-size: var(--M16);
+    margin-bottom: 60px;
+  }
+  
+  /* Hero page MON TABLEAU DE BORD */
+
+/* .img__hero-tdb {
+    background-size: cover;
+    background-position: center;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+
+.img__container-tdb {
+    position: relative;
+    display: inline-block;
+} */
+
+.img__hero-tdb {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .img__container-tdb img {
+    width: 100%; /* ajuste la taille de l'image selon le besoin */
+  }
+  
+  .rectangle {
+    position: absolute;
+    top: 20px; /* ajuster la position du rectangle */
+    left: 20px; /* ajuster la position du rectangle */
+    width: 200px; /* largeur du rectangle */
+    height: 100px; /* hauteur du rectangle */
+    background-color: rgba(0, 0, 0, 0.7); /* noir avec opacité de 50% */
+  }

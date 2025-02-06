@@ -1,0 +1,122 @@
+{{> "layouts/header.hbs" }}
+
+{{!-- HERO mon tableau de bord --}}
+<div class="img__container-tdb">
+
+<img src="/src/assets/entrainement.webp" alt="Musculation" class="img__hero-tdb">
+<div class="rectangle"></div>
+</div>
+<h2>Bienvenue dans votre Tableau de Bord Noah,</h2>
+<img src="/src/assets/tableau.png" alt="Icon tableau de bord">
+
+<section>
+    <h3>Mes informations</h3>
+    <div>
+        <p>POIDS ACTUEL</p>
+        <p>75 KG</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+    <div>
+        <p>TAILLE</p>
+        <p>178</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+    <div>
+        <p>AGE</p>
+        <p>21 ANS</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+    <div>
+        <p>DATE D'INSCRIPTION</p>
+        <p>22/07/24</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+    <div>
+        <p>OBJECTIF</p>
+        <p>PRISE DE MASSE</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+    <div>
+        <p>POIDS IDEAL</p>
+        <p>85 KG</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+    <h3>Votre IMC</h3>
+
+    <div>
+        <p>24.2</p>
+        <p>NORMAL</p>
+        <img src="/src/assets/pen.png" alt="Stylo modifier">
+    </div>
+
+</section>
+
+<section>
+
+    <h3>Entraînement en cours</h3>
+
+    <img src="/src/assets/cordeasauter.webp" alt="Homme en train de faire de la corde a sauter">
+    <p>FULL BODY 1 - DEBUTANT(E)</p>
+    <p>12 semaines - 3x/semaine</p>
+    <p>13%</p>
+
+</section>
+
+<section>
+
+    <h3>Découvrez nos packs</h3>
+
+    <div>
+        <h3>débutant</h3>
+        <p>Pour démarrer en douceur</p>
+        <img src="/src/assets/trainers.png" alt="Icon chaussure">
+        <button>DÉCOUVRIR</button>
+        <button>CHOISIR CE PROGRAMME</button>
+    </div>
+
+    <div>
+        <h3>INTERMÉDIAIRE</h3>
+        <p>Repousser vos limites et améliorer vos performances</p>
+        <img src="/src/assets/stopwatch.png" alt="Icon chronomètre">
+        <button>DÉCOUVRIR</button>
+        <button>CHOISIR CE PROGRAMME</button>
+    </div>
+
+    <div>
+        <h3>AVANCÉ</h3>
+        <p>Pour des résultats exceptionnels, repoussez vos frontières</p>
+        <img src="/src/assets/torso.png" alt="Icon torse">
+        <button>DÉCOUVRIR</button>
+        <button>CHOISIR CE PROGRAMME</button>
+    </div>
+
+</section>
+
+<section>
+
+<h3>Votre transformation en image</h3>
+<p>Importez vos photos et suivez votre progression !</p>
+<img src="/src/assets/avant.JPG" alt="Photo de Noah avant sa transformation">
+<img src="/src/assets/apres.JPG" alt="Photo de Noah après sa transformation">
+ <form>
+    <label for="photo-upload">Importez mes photos</label>
+    <input type="text" id="photo-upload" name="photo" accept="image/*">
+ </form>
+
+</section>
+
+<section>
+    <a href="entrainements">MES ENTRAINEMENTS</a>
+    <a href="nutrition">NUTRITION</a>
+</section>
+
+
+
+
+{{> "layouts/footer.hbs" }}
