@@ -1,52 +1,61 @@
 {{> "layouts/header.hbs" }}
 
 {{!-- HERO mon tableau de bord --}}
-<div class="img__container-tdb">
-
-<img src="/src/assets/entrainement.webp" alt="Musculation" class="img__hero-tdb">
-<div class="rectangle"></div>
+<div>
+    <div class="img__hero-tbd">
+        <div class="img_container-tbd">
+            <h2 class="img__tbd-slogan">Bienvenue dans votre Tableau de bord Noah,</h2>
+            <i class="bi bi-card-list img__tbd"></i>
+        </div>
+    </div>
 </div>
-<h2>Bienvenue dans votre Tableau de Bord Noah,</h2>
-<img src="/src/assets/tableau.png" alt="Icon tableau de bord">
+
 
 <section>
-    <h3>Mes informations</h3>
-    <div>
-        <p>POIDS ACTUEL</p>
-        <p>75 KG</p>
-        <img src="/src/assets/pen.png" alt="Stylo modifier">
-    </div>
 
     <div>
-        <p>TAILLE</p>
-        <p>178</p>
-        <img src="/src/assets/pen.png" alt="Stylo modifier">
+        <h3 class="section__tbd_title">Mes informations</h3>
     </div>
 
-    <div>
-        <p>AGE</p>
-        <p>21 ANS</p>
-        <img src="/src/assets/pen.png" alt="Stylo modifier">
-    </div>
+    <div class="tbd__container">
+        <div>
+            <div class="tbd__border">
+                <p class="tbd__titre">POIDS ACTUEL</p>
+                <p class="tbd__infos">75 KG</p>
+                <img src="/src/assets/pen.png" alt="Stylo modifier" class="tbd__pen">
+            </div>
 
-    <div>
-        <p>DATE D'INSCRIPTION</p>
-        <p>22/07/24</p>
-        <img src="/src/assets/pen.png" alt="Stylo modifier">
-    </div>
+            <div class="tbd__border">
+                <p>TAILLE</p>
+                <p>178</p>
+                <img src="/src/assets/pen.png" alt="Stylo modifier">
+            </div>
 
-    <div>
-        <p>OBJECTIF</p>
-        <p>PRISE DE MASSE</p>
-        <img src="/src/assets/pen.png" alt="Stylo modifier">
-    </div>
+            <div class="tbd__border">
+                <p>AGE</p>
+                <p>21 ANS</p>
+                <img src="/src/assets/pen.png" alt="Stylo modifier">
+            </div>
 
-    <div>
-        <p>POIDS IDEAL</p>
-        <p>85 KG</p>
-        <img src="/src/assets/pen.png" alt="Stylo modifier">
-    </div>
+            <div class="tbd__border">
+                <p>DATE D'INSCRIPTION</p>
+                <p>22/07/24</p>
+                <img src="/src/assets/pen.png" alt="Stylo modifier">
+            </div>
 
+            <div class="tbd__border">
+                <p>OBJECTIF</p>
+                <p>PRISE DE MASSE</p>
+                <img src="/src/assets/pen.png" alt="Stylo modifier">
+            </div>
+
+            <div class="tbd__border">
+                <p>POIDS IDEAL</p>
+                <p>85 KG</p>
+                <img src="/src/assets/pen.png" alt="Stylo modifier">
+            </div>
+        </div>
+    </div>
     <h3>Votre IMC</h3>
 
     <div>
@@ -100,14 +109,14 @@
 
 <section>
 
-<h3>Votre transformation en image</h3>
-<p>Importez vos photos et suivez votre progression !</p>
-<img src="/src/assets/avant.JPG" alt="Photo de Noah avant sa transformation">
-<img src="/src/assets/apres.JPG" alt="Photo de Noah après sa transformation">
- <form>
-    <label for="photo-upload">Importez mes photos</label>
-    <input type="text" id="photo-upload" name="photo" accept="image/*">
- </form>
+    <h3>Votre transformation en image</h3>
+    <p>Importez vos photos et suivez votre progression !</p>
+    <img src="/src/assets/avant.JPG" alt="Photo de Noah avant sa transformation">
+    <img src="/src/assets/apres.JPG" alt="Photo de Noah après sa transformation">
+    <form>
+        <label for="photo-upload">Importez mes photos</label>
+        <input type="text" id="photo-upload" name="photo" accept="image/*">
+    </form>
 
 </section>
 

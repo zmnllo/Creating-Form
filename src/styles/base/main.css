@@ -4,6 +4,7 @@ body {
   color: #ebebeb;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.4;
+  ;
 }
 
 .logo {
@@ -23,17 +24,17 @@ body {
   font-size: var(--M22);
   text-align: center;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .section__title-left {
   font-size: var(--M22);
   text-align: left;
   font-weight: 600;
-}
-
-.section__title {
   margin-bottom: 15px;
 }
+
+
 
 .section__sous_titre {
   text-align: center;
@@ -44,6 +45,14 @@ body {
 .section {
   margin-top: 70px;
 }
+
+.section__tbd_title {
+  margin: 20px;
+  font-size: var(--M20);
+}
+
+
+
 
 
 

@@ -127,3 +127,58 @@
 .intro {
     margin: 20px;
 }
+
+
+/* Section TBD > Mes informations */
+.tbd__border {
+    background-color: #262626;
+    border-radius: 20px;
+    padding: 30px 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+    ;
+}
+
+.tbd__titre {
+    color: white;
+    font-size: 14px;
+}
+
+.tbd__infos {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.poids-underline {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.tbd__pen {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tbd__container {
+display: flex;
+justify-content: center;
+   
+ 
+    
+}
